@@ -350,5 +350,180 @@ export const dohasData: Doha[] = [
     transliteration: "Jeevata koye samajhaavai, kooo na samajhaaye mue.\nKaha Kabir aisi likhi, likha padhi alasha hue.",
     translation: "Someone may understand while alive, but none can be taught when dead.\nSays Kabir, such is the script written, writing and reading, we become lazy.",
     moods: ["wise", "urgent", "realistic", "awakening"]
+  },
+  {
+    id: "doha_51",
+    hindi: "कहा किया हम आपका, जो भई द्विगुन रीत।\nतुमसें अधिक हमारे कर, करत न बिसारें प्रीत॥",
+    transliteration: "Kaha kiya ham aapka, jo bhayi dvigun reet.\nTumse adhik hamaare kar, karat na bisaare preet.",
+    translation: "What have we done for you that your kindness has doubled?\nOur hands are lesser than yours, yet love doesn't forget.",
+    moods: ["grateful", "humble", "loving", "devoted"]
+  },
+  {
+    id: "doha_52",
+    hindi: "समझी बात कहां गई, गई बची नहीं कुछ भी।\nकहूं किससे अब अपनी, सुन्ने वाला कौन है॥",
+    transliteration: "Samjhi baat kahan gayi, gayi bachi nahin kuch bhi.\nKahun kisse ab apni, sunne waala kaun hai.",
+    translation: "Where did understanding go? Nothing remains now.\nTo whom shall I speak my heart? Who is there to listen?",
+    moods: ["lonely", "lost", "melancholic", "yearning"]
+  },
+  {
+    id: "doha_53",
+    hindi: "राम रसायन प्रेम रस, पीकर पागल होय।\nसदगुरु सिरमौर हमारे, राम मिलन करवाय॥",
+    transliteration: "Raam rasaayan prem ras, peekar paagal hoye.\nSadguru sirmaur hamaare, raam milan karavaay.",
+    translation: "Drinking the elixir of divine love, one becomes intoxicated.\nOur crown jewel Guru facilitates the union with God.",
+    moods: ["ecstatic", "devoted", "grateful", "mystical"]
+  },
+  {
+    id: "doha_54",
+    hindi: "खुशी से हंसना सीख ले, दुख में धैर्य धरो।\nजिंदगी एक खेल है, इसे समझकर जी लो॥",
+    transliteration: "Khushi se hansna seekh le, dukh mein dhairya dharo.\nZindagi ek khel hai, ise samajhkar jee lo.",
+    translation: "Learn to laugh with joy, maintain patience in sorrow.\nLife is a game, understand this and live it fully.",
+    moods: ["joyful", "wise", "patient", "playful"]
+  },
+  {
+    id: "doha_55",
+    hindi: "बादल घिरते जाते हैं, मन में उमंग भरी।\nवर्षा होने वाली है, खुशी का पल है ये॥",
+    transliteration: "Baadal ghirate jaate hain, man mein umang bhari.\nVarsha hone waali hai, khushi ka pal hai ye.",
+    translation: "Clouds are gathering, the heart is filled with enthusiasm.\nRain is about to come, this is a moment of joy.",
+    moods: ["hopeful", "joyful", "anticipating", "excited"]
+  },
+  {
+    id: "doha_56",
+    hindi: "मन की शांति चाहिए, तो मन को समझाओ।\nव्यर्थ की चिंता छोड़कर, प्रभु स्मरण में लगाओ॥",
+    transliteration: "Man ki shaanti chaahiye, to man ko samjhaao.\nVyarth ki chinta chhodkar, prabhu smaran mein lagaao.",
+    translation: "If you want peace of mind, then understand your mind.\nLeaving futile worries, engage in remembrance of the divine.",
+    moods: ["peaceful", "wise", "seeking", "restless"]
+  },
+  {
+    id: "doha_57",
+    hindi: "गुस्से में जो बोल दे, पछताना पड़ता है।\nमीठे बोल बोलिए, दिल खुश होता है॥",
+    transliteration: "Gusse mein jo bol de, pachhtaana padta hai.\nMeethe bol boliye, dil khush hota hai.",
+    translation: "What is spoken in anger, one regrets later.\nSpeak sweet words, the heart becomes happy.",
+    moods: ["regretful", "wise", "angry", "kind"]
+  },
+  {
+    id: "doha_58",
+    hindi: "डर के आगे जीत है, हिम्मत करने वालों की।\nमेहनत का फल मिलता है, सच्चे सपने देखने वालों की॥",
+    transliteration: "Dar ke aage jeet hai, himmat karne walon ki.\nMehnat ka phal milta hai, sachche sapne dekhne walon ki.",
+    translation: "Victory lies beyond fear, for those who have courage.\nThe fruit of hard work comes to those who dream truthfully.",
+    moods: ["courageous", "determined", "hopeful", "motivated"]
+  },
+  {
+    id: "doha_59",
+    hindi: "सत्य का साथ दो सदा, चाहे जो भी हो परिणाम।\nझूठ की दोस्ती मत करो, इससे होता है अपमान॥",
+    transliteration: "Satya ka saath do sada, chaahe jo bhi ho parinaam.\nJhooth ki dosti mat karo, isse hota hai apmaan.",
+    translation: "Always support truth, whatever the outcome may be.\nDon't befriend falsehood, it leads to dishonor.",
+    moods: ["righteous", "truthful", "courageous", "principled"]
+  },
+  {
+    id: "doha_60",
+    hindi: "दूसरों की भलाई करो, अपना हित भी होगा।\nप्रेम की भाषा बोलो, हर दिल में बसोगे॥",
+    transliteration: "Doosron ki bhalaai karo, apna hit bhi hoga.\nPrem ki bhaasha bolo, har dil mein basoge.",
+    translation: "Do good for others, your own welfare will follow.\nSpeak the language of love, you'll reside in every heart.",
+    moods: ["loving", "generous", "kind", "wise"]
+  },
+  {
+    id: "doha_61",
+    hindi: "कल की चिंता छोड़कर, आज को जी भर जियो।\nवक्त का सदुपयोग करो, खुशियों को गले लगाओ॥",
+    transliteration: "Kal ki chinta chhodkar, aaj ko jee bhar jiyo.\nVakt ka sadupyog karo, khushiyon ko gale lagaao.",
+    translation: "Leaving tomorrow's worries, live today to the fullest.\nMake good use of time, embrace happiness.",
+    moods: ["present", "joyful", "wise", "carefree"]
+  },
+  {
+    id: "doha_62",
+    hindi: "जिसने अपने मन को जीता, उसने सब कुछ पाया।\nआत्मविश्वास ही शक्ति है, जो हर मुश्किल से निकाले॥",
+    transliteration: "Jisne apne man ko jeeta, usne sab kuch paaya.\nAatmavishvaas hi shakti hai, jo har mushkil se nikaale.",
+    translation: "One who conquered their own mind, gained everything.\nSelf-confidence is the power that takes you through every difficulty.",
+    moods: ["confident", "victorious", "wise", "empowered"]
+  },
+  {
+    id: "doha_63",
+    hindi: "माफी मांगने में कोई शर्म नहीं, बड़प्पन दिखता है।\nगलती से सीखने वाला, आगे बढ़ता जाता है॥",
+    transliteration: "Maafi maangne mein koi sharm nahin, badappan dikhta hai.\nGalti se seekhne waala, aage badhta jaata hai.",
+    translation: "There's no shame in apologizing, it shows greatness.\nOne who learns from mistakes, keeps moving forward.",
+    moods: ["humble", "forgiving", "wise", "growing"]
+  },
+  {
+    id: "doha_64",
+    hindi: "धैर्य एक गुण है बहुत, जो सफलता दिलाता है।\nमेहनत और धैर्य मिले, तो मंजिल पास आता है॥",
+    transliteration: "Dhairya ek gun hai bahut, jo safalta dilaata hai.\nMehnat aur dhairya mile, to manzil paas aata hai.",
+    translation: "Patience is a great virtue that brings success.\nWhen hard work and patience combine, the destination comes near.",
+    moods: ["patient", "determined", "hopeful", "persistent"]
+  },
+  {
+    id: "doha_65",
+    hindi: "खुद पर भरोसा रखिये, दुनिया आपका साथ देगी।\nसच्चाई के साथ चलिये, हर मुश्किल आसान होगी॥",
+    transliteration: "Khud par bharosa rakhiye, duniya aapka saath degi.\nSacchaai ke saath chaliye, har mushkil aasaan hogi.",
+    translation: "Have faith in yourself, the world will support you.\nWalk with truth, every difficulty will become easy.",
+    moods: ["confident", "truthful", "optimistic", "faithful"]
+  },
+  {
+    id: "doha_66",
+    hindi: "समय का मूल्य समझिए, ये वापस नहीं आता।\nआज का काम आज करें, कल पछताना नहीं पड़ता॥",
+    transliteration: "Samay ka mulya samjhiye, ye vaapas nahin aata.\nAaj ka kaam aaj karen, kal pachhtaana nahin padta.",
+    translation: "Understand the value of time, it doesn't come back.\nDo today's work today, then you won't regret tomorrow.",
+    moods: ["urgent", "wise", "practical", "responsible"]
+  },
+  {
+    id: "doha_67",
+    hindi: "मुस्कान एक जादू है, जो दिल को छू जाता है।\nप्रेम से भरा व्यवहार, हर रिश्ता मजबूत बनाता है॥",
+    transliteration: "Muskaan ek jaadu hai, jo dil ko chhu jaata hai.\nPrem se bhara vyavahaar, har rishta majboot banaata hai.",
+    translation: "A smile is magic that touches the heart.\nBehavior filled with love strengthens every relationship.",
+    moods: ["joyful", "loving", "warm", "connecting"]
+  },
+  {
+    id: "doha_68",
+    hindi: "संघर्ष ही जीवन है, डरने की बात नहीं।\nहार-जीत तो लगी रहती, रुकने की बात नहीं॥",
+    transliteration: "Sangharsh hi jeevan hai, darne ki baat nahin.\nHaar-jeet to lagi rahti, rukne ki baat nahin.",
+    translation: "Struggle is life itself, there's no need to fear.\nWin and loss keep happening, there's no question of stopping.",
+    moods: ["courageous", "determined", "philosophical", "resilient"]
+  },
+  {
+    id: "doha_69",
+    hindi: "अच्छे कर्म करते रहो, फल की चिंता न करो।\nभगवान देता है उसे, जो मेहनत से नहीं डरे॥",
+    transliteration: "Achhe karma karte raho, phal ki chinta na karo.\nBhagwaan deta hai use, jo mehnat se nahin dare.",
+    translation: "Keep doing good deeds, don't worry about the results.\nGod gives to those who are not afraid of hard work.",
+    moods: ["righteous", "patient", "trusting", "hardworking"]
+  },
+  {
+    id: "doha_70",
+    hindi: "अपनी गलती मानना, बड़े आदमी की पहचान है।\nझगड़े से बचने वाला, समझदार इंसान है॥",
+    transliteration: "Apni galti maanna, bade aadmi ki pehchaan hai.\nJhagde se bachne waala, samajhdaar insaan hai.",
+    translation: "Accepting one's mistake is the mark of a great person.\nOne who avoids quarrels is a wise human being.",
+    moods: ["humble", "wise", "peaceful", "mature"]
+  },
+  {
+    id: "doha_71",
+    hindi: "उम्मीद का दीया जलाकर, अंधेरे को भगाते चलो।\nजो मुश्किल सामने आए, उसे मुस्कराकर अपनाते चलो॥",
+    transliteration: "Ummeed ka diya jalakar, andhere ko bhagaate chalo.\nJo mushkil saamne aaye, use muskrakar apnaate chalo.",
+    translation: "Light the lamp of hope and keep dispelling darkness.\nWhatever difficulty comes before you, embrace it with a smile.",
+    moods: ["hopeful", "optimistic", "courageous", "positive"]
+  },
+  {
+    id: "doha_72",
+    hindi: "जिंदगी में आने वाले, हर पल का स्वागत करो।\nखुशी हो या गम हो, दोनों को अपनाकर आगे बढ़ो॥",
+    transliteration: "Zindagi mein aane waale, har pal ka swaagat karo.\nKhushi ho ya gam ho, donon ko apnaakar aage badho.",
+    translation: "Welcome every moment that comes in life.\nWhether it's joy or sorrow, embrace both and move forward.",
+    moods: ["accepting", "wise", "resilient", "balanced"]
+  },
+  {
+    id: "doha_73",
+    hindi: "दिल में बसा लो प्रेम को, नफरत को दूर भगाओ।\nसबके साथ मिल-जुलकर, खुशियों का त्योहार मनाओ॥",
+    transliteration: "Dil mein basa lo prem ko, nafrat ko door bhagaao.\nSabke saath mil-julkar, khushiyon ka tyohaar manaao.",
+    translation: "Keep love in your heart, drive hatred far away.\nTogether with everyone, celebrate the festival of happiness.",
+    moods: ["loving", "joyful", "unifying", "peaceful"]
+  },
+  {
+    id: "doha_74",
+    hindi: "रात काली है तो क्या, सुबह तो आनी है।\nमुश्किलें आती-जाती रहती, उम्मीद नहीं हारनी है॥",
+    transliteration: "Raat kaali hai to kya, subah to aani hai.\nMushkilein aati-jaati rahti, ummeed nahin haarni hai.",
+    translation: "So what if the night is dark, morning has to come.\nDifficulties keep coming and going, hope must not be lost.",
+    moods: ["hopeful", "patient", "optimistic", "encouraging"]
+  },
+  {
+    id: "doha_75",
+    hindi: "सच्चे मित्र वो होते हैं, जो मुश्किल में साथ दें।\nअपनापन दिखाने वाले, दिल की बात समझ लें॥",
+    transliteration: "Sachche mitra vo hote hain, jo mushkil mein saath den.\nApnaapan dikhaane waale, dil ki baat samajh len.",
+    translation: "True friends are those who stand with you in difficulties.\nThose who show belonging understand matters of the heart.",
+    moods: ["grateful", "faithful", "appreciative", "loving"]
   }
 ];

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import MoodCloud from "@/components/mood-cloud";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -65,6 +66,9 @@ export default function Home() {
           <MoodCloud />
         </motion.div>
       </motion.div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

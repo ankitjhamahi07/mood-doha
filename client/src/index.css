@@ -175,99 +175,102 @@
     --tw-ring-color: var(--spiritual-sage);
   }
   
-  /* Vedic-inspired mood button styles */
+  /* Modern mood button styles */
   .mood-button-vedic-saffron {
-    background: linear-gradient(135deg, hsla(35, 85%, 65%, 0.12) 0%, hsla(45, 80%, 75%, 0.08) 100%);
+    background: hsla(35, 85%, 65%, 0.08);
     color: var(--spiritual-charcoal);
-    border: 1px solid hsla(35, 85%, 65%, 0.25);
-    backdrop-filter: blur(10px);
-    position: relative;
-    overflow: hidden;
+    border: 1px solid hsla(35, 85%, 65%, 0.15);
+    backdrop-filter: blur(5px);
   }
   
   .mood-button-vedic-saffron:hover {
-    background: linear-gradient(135deg, var(--vedic-saffron) 0%, var(--vedic-gold) 100%);
-    color: hsl(45, 50%, 99%);
-    transform: translateY(-2px) scale(1.02);
-    box-shadow: 0 6px 20px hsla(35, 85%, 65%, 0.25), 0 0 0 1px hsla(35, 85%, 65%, 0.3);
+    background: hsla(35, 85%, 65%, 0.15);
+    color: var(--spiritual-charcoal);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px hsla(35, 85%, 65%, 0.2);
+    border-color: hsla(35, 85%, 65%, 0.3);
   }
   
   .mood-button-vedic-teal {
-    background: linear-gradient(135deg, hsla(180, 35%, 55%, 0.12) 0%, hsla(190, 40%, 65%, 0.08) 100%);
+    background: hsla(180, 35%, 55%, 0.08);
     color: var(--spiritual-charcoal);
-    border: 1px solid hsla(180, 35%, 55%, 0.25);
-    backdrop-filter: blur(10px);
+    border: 1px solid hsla(180, 35%, 55%, 0.15);
+    backdrop-filter: blur(5px);
   }
   
   .mood-button-vedic-teal:hover {
-    background: linear-gradient(135deg, var(--vedic-teal) 0%, hsla(180, 45%, 65%) 100%);
-    color: hsl(45, 50%, 99%);
-    transform: translateY(-2px) scale(1.02);
-    box-shadow: 0 6px 20px hsla(180, 35%, 55%, 0.25), 0 0 0 1px hsla(180, 35%, 55%, 0.3);
+    background: hsla(180, 35%, 55%, 0.15);
+    color: var(--spiritual-charcoal);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px hsla(180, 35%, 55%, 0.2);
+    border-color: hsla(180, 35%, 55%, 0.3);
   }
   
   .mood-button-vedic-maroon {
-    background: linear-gradient(135deg, hsla(0, 45%, 35%, 0.12) 0%, hsla(10, 50%, 45%, 0.08) 100%);
+    background: hsla(0, 45%, 35%, 0.08);
     color: var(--spiritual-charcoal);
-    border: 1px solid hsla(0, 45%, 35%, 0.25);
-    backdrop-filter: blur(10px);
+    border: 1px solid hsla(0, 45%, 35%, 0.15);
+    backdrop-filter: blur(5px);
   }
   
   .mood-button-vedic-maroon:hover {
-    background: linear-gradient(135deg, var(--vedic-maroon) 0%, var(--vedic-temple-red) 100%);
-    color: hsl(45, 50%, 99%);
-    transform: translateY(-2px) scale(1.02);
-    box-shadow: 0 6px 20px hsla(0, 45%, 35%, 0.25), 0 0 0 1px hsla(0, 45%, 35%, 0.3);
+    background: hsla(0, 45%, 35%, 0.15);
+    color: var(--spiritual-charcoal);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px hsla(0, 45%, 35%, 0.2);
+    border-color: hsla(0, 45%, 35%, 0.3);
   }
   
   .mood-button-vedic-indigo {
-    background: linear-gradient(135deg, hsla(240, 55%, 45%, 0.12) 0%, hsla(250, 60%, 55%, 0.08) 100%);
+    background: hsla(240, 55%, 45%, 0.08);
     color: var(--spiritual-charcoal);
-    border: 1px solid hsla(240, 55%, 45%, 0.25);
-    backdrop-filter: blur(10px);
+    border: 1px solid hsla(240, 55%, 45%, 0.15);
+    backdrop-filter: blur(5px);
   }
   
   .mood-button-vedic-indigo:hover {
-    background: linear-gradient(135deg, var(--vedic-indigo) 0%, hsla(240, 65%, 55%) 100%);
-    color: hsl(45, 50%, 99%);
-    transform: translateY(-2px) scale(1.02);
-    box-shadow: 0 6px 20px hsla(240, 55%, 45%, 0.25), 0 0 0 1px hsla(240, 55%, 45%, 0.3);
+    background: hsla(240, 55%, 45%, 0.15);
+    color: var(--spiritual-charcoal);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px hsla(240, 55%, 45%, 0.2);
+    border-color: hsla(240, 55%, 45%, 0.3);
   }
   
   .mood-button-vedic-rose {
-    background: linear-gradient(135deg, hsla(25, 60%, 75%, 0.12) 0%, hsla(30, 65%, 80%, 0.08) 100%);
+    background: hsla(25, 60%, 75%, 0.08);
     color: var(--spiritual-charcoal);
-    border: 1px solid hsla(25, 60%, 75%, 0.25);
-    backdrop-filter: blur(10px);
+    border: 1px solid hsla(25, 60%, 75%, 0.15);
+    backdrop-filter: blur(5px);
   }
   
   .mood-button-vedic-rose:hover {
-    background: linear-gradient(135deg, var(--vedic-rose-gold) 0%, var(--vedic-copper) 100%);
-    color: hsl(45, 50%, 99%);
-    transform: translateY(-2px) scale(1.02);
-    box-shadow: 0 6px 20px hsla(25, 60%, 75%, 0.25), 0 0 0 1px hsla(25, 60%, 75%, 0.3);
+    background: hsla(25, 60%, 75%, 0.15);
+    color: var(--spiritual-charcoal);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px hsla(25, 60%, 75%, 0.2);
+    border-color: hsla(25, 60%, 75%, 0.3);
   }
   
-  /* Floating animation for mood buttons */
+  /* Subtle floating animation for mood buttons */
   @keyframes float {
     0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-3px); }
+    50% { transform: translateY(-1px); }
   }
   
   .mood-float {
-    animation: float 4s ease-in-out infinite;
+    animation: float 6s ease-in-out infinite;
   }
   
   .mood-float:nth-child(2n) {
-    animation-delay: 0.5s;
-  }
-  
-  .mood-float:nth-child(3n) {
     animation-delay: 1s;
   }
   
+  .mood-float:nth-child(3n) {
+    animation-delay: 2s;
+  }
+  
   .mood-float:nth-child(4n) {
-    animation-delay: 1.5s;
+    animation-delay: 3s;
   }
   
   /* Vedic ornamental elements */

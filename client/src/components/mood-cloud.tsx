@@ -53,7 +53,7 @@ export default function MoodCloud() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0, y: -40 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-5 max-w-7xl mx-auto p-8 relative"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4 max-w-7xl mx-auto p-6 relative"
       >
         {moods.map((mood, index) => (
           <motion.button
@@ -71,7 +71,7 @@ export default function MoodCloud() {
             }}
             whileTap={{ scale: 0.95 }}
             onClick={() => handleMoodSelect(mood)}
-            className={`${getVedicMoodButtonStyle(index)} ${getButtonSize(index)} mood-float rounded-full font-medium transition-all duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-vedic-saffron focus:ring-opacity-30 capitalize relative overflow-hidden`}
+            className={`${getVedicMoodButtonStyle(index)} ${getButtonSize(index)} mood-float rounded-lg font-medium transition-all duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-vedic-saffron focus:ring-opacity-30 capitalize relative overflow-hidden shadow-sm hover:shadow-lg`}
             style={{
               animationDelay: `${(index * 0.2) % 2}s`
             }}

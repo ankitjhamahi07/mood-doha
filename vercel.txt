@@ -1,0 +1,134 @@
+I'll guide you through deploying your Kabir Doha app to Vercel. Here are the step-by-step instructions:
+
+📋 Vercel Deployment Steps
+1. Prepare Your Code for Deployment
+First, ensure your app is ready for production:
+
+# Test that your build works locally
+npm run build
+# Verify the production build runs
+npm start
+2. Create a Vercel Account & Install CLI
+# Install Vercel CLI globally
+npm i -g vercel
+# Login to Vercel (creates account if needed)
+vercel login
+3. Configure Vercel for Full-Stack App
+Create a vercel.json file in your project root:
+
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server/index.ts",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "client/**/*",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/public"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/server/index.ts"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dist/public/$1"
+    }
+  ],
+  "functions": {
+    "server/index.ts": {
+      "includeFiles": "client/src/data/**"
+    }
+  }
+}
+4. Update Package.json Scripts
+Ensure your package.json has the correct build commands:
+
+{
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "tsc && vite build",
+    "start": "node dist/index.js",
+    "vercel-build": "npm run build"
+  }
+}
+5. Deploy to Vercel
+# Deploy from your project directory
+vercel
+# Follow the prompts:
+# - Set up and deploy? [Y/n] → Y
+# - Which scope? → Select your account
+# - Link to existing project? [y/N] → N
+# - Project name → kabir-doha-app (or your choice)
+# - Directory → ./ (current directory)
+6. Configure Environment Variables (if needed)
+If you have any environment variables:
+
+# Set environment variables
+vercel env add NODE_ENV production
+vercel env add VITE_API_URL https://your-app.vercel.app
+7. Set Up Automatic Deployments
+Connect your GitHub repository for automatic deployments:
+
+Push your code to GitHub
+Go to vercel.com/dashboard
+Click "Import Project"
+Select your GitHub repository
+Configure build settings (should auto-detect)
+8. Alternative: Deploy Directly
+If you don't want GitHub integration:
+
+# Deploy directly from local directory
+vercel --prod
+# Your app will be available at:
+# https://your-app-name.vercel.app
+🔧 Troubleshooting Common Issues
+Build Errors
+# If build fails, check:
+npm run build
+# Fix any TypeScript errors before deploying
+API Routes Not Working
+Ensure vercel.json routes are correct
+Check that API endpoints start with /api/
+Verify server code doesn't use Node.js specific features
+Static Files Missing
+Confirm dist/public contains your built frontend
+Check that Vite build outputs to correct directory
+Font Loading Issues
+Ensure Google Fonts are properly imported in index.css
+Verify fonts load correctly in production build
+🎯 Post-Deployment Checklist
+Test Core Functionality:
+
+Visit mood cloud homepage
+Select different moods
+Verify dohas display correctly
+Test "Next Doha" button
+Check API Endpoints:
+
+https://your-app.vercel.app/api/moods
+https://your-app.vercel.app/api/dohas/peaceful/random
+Mobile Testing:
+
+Test on different devices
+Verify responsive design
+Check touch interactions
+Performance Check:
+
+Verify fonts load quickly
+Test animation smoothness
+Check initial page load time
+🚀 Quick Deploy Command
+Once everything is set up:
+
+# For future deployments
+vercel --prod
+Your spiritual Kabir Doha app will be live at https://your-app-name.vercel.app!
+
+The deployment typically takes 2-3 minutes, and Vercel will provide you with a live URL once complete.

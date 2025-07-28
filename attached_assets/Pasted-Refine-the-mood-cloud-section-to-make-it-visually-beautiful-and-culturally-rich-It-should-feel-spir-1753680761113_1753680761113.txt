@@ -1,0 +1,35 @@
+Refine the mood cloud section to make it visually beautiful and culturally rich. It should feel spiritual and artistic, like a blend of a Vedic manuscript and a mindfulness app. Keep it elegant and mobile-friendly.
+
+Enhance the design as follows:
+
+🌿 **Layout & Placement:**
+- Center the mood cloud both vertically and horizontally.
+- Use a responsive grid with natural spacing and wrap.
+- Allow some floating variation in button size (like a real "cloud").
+
+🎨 **Mood Button Design:**
+- Use **pill-shaped buttons** with soft gradients or light textures (linen, parchment).
+- Apply gentle shadows or border glows using colors like saffron, teal, maroon, or indigo.
+- Add **hover/tap animations**: gentle scale (1.05x) with `ease-in-out`, maybe a glowing border or ripple.
+- Font should be soft and elegant (`Inter`, `Tiro Devanagari`, `Playfair Display`).
+
+🕉️ **Vedic / Ethnic Visual Elements:**
+- Add a **subtle background motif**: faded mandala, lotus, diya, or peepal leaf (SVG or PNG), placed behind or around the cloud.
+- Consider light **border ornaments** (like temple arch patterns or floral vines) around the mood cloud container.
+- Add a **decorative title** like “Choose Your State of Mind” in Sanskrit-inspired font or style.
+
+🪄 **Transitions & Animations:**
+- When the mood cloud loads, animate the tags softly with staggered fade-in and float.
+- Add slight floating animation to each tag (e.g., vertical oscillation by 1–2px) to make it feel alive.
+- On mood selection, fade the cloud away gently and slide into the Doha view.
+
+🎨 **Color Palette Suggestions:**
+- Background: `#fefcf9` or `#fffaf3`
+- Accents: muted saffron, rose gold, temple red, indigo blue
+- Add very soft gold or copper texture if possible (with opacity < 0.1)
+
+📱 **Mobile Optimization:**
+- Ensure all mood buttons are large enough for touch.
+- Use a collapsible cloud or scrollable grid if needed.
+
+The final result should feel immersive, sacred, and inviting — like the start of a spiritual journey. No harsh shadows or modern UI distractions — think **temple courtyard meets poetry scroll**.

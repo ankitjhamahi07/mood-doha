@@ -1,0 +1,8 @@
+node_modules
+.git
+.replit
+.replit-lock
+attached_assets
+CODEBASE_OVERVIEW.txt
+*.md
+.gitignore

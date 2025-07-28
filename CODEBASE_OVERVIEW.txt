@@ -1,0 +1,162 @@
+# 🕉️ Kabir Doha Spiritual Web App - Codebase Overview
+
+## 🧠 **Codebase Summary**
+
+### Purpose
+This is a full-stack spiritual web application that helps users discover timeless wisdom through Kabir's dohas (spiritual couplets). Users select their current mood or emotional state from a beautiful cloud of mood options, and the app presents them with relevant dohas in Hindi (Devanagari), transliteration, and English translation.
+
+### Main User Flow
+1. **Homepage**: User sees a Vedic-inspired mood cloud with 50+ mood options
+2. **Mood Selection**: Click on a mood (e.g., "peaceful", "seeking", "joyful") 
+3. **Doha Display**: Navigate to `/doha/:mood` route showing a matching doha
+4. **Next Doha**: Click "Next Doha" to see another random doha for the same mood
+5. **Return**: Click "Choose Different Mood" to go back to mood selection
+
+### Frontend Responsibilities
+- **React SPA** with smooth animations and spiritual UI design
+- **Mood Cloud**: Interactive grid of mood buttons with Vedic aesthetics
+- **Doha Display**: Beautiful typography for Hindi, transliteration, and English
+- **Routing**: Client-side navigation using Wouter
+- **State Management**: TanStack Query for server state, React hooks for local state
+- **Animations**: Framer Motion for mindful transitions and floating effects
+
+### Backend Responsibilities
+- **Express.js API** serving three main endpoints:
+  - `GET /api/moods` - Returns all available moods
+  - `GET /api/dohas/:mood` - Returns all dohas for a specific mood
+  - `GET /api/dohas/:mood/random` - Returns one random doha for a mood
+- **Fisher-Yates shuffle** algorithm for proper randomization
+- **In-memory storage** using MemStorage class (no database needed)
+- **CORS and logging** middleware for development
+
+### Key Technologies & Libraries
+- **Frontend**: React 18, TypeScript, Vite, TailwindCSS, Framer Motion
+- **Backend**: Node.js, Express.js, TypeScript with tsx
+- **UI Components**: Radix UI primitives with shadcn/ui styling system
+- **Fonts**: Google Fonts (Noto Sans Devanagari for Hindi, Playfair Display for English)
+- **State Management**: TanStack Query v5 for server state
+- **Routing**: Wouter (lightweight React router)
+- **Build Tools**: Vite for frontend, ESBuild for backend production builds
+
+### Data Storage
+- **dohas.ts**: 75 dohas stored as TypeScript objects in `client/src/data/dohas.ts`
+- **In-memory**: Backend loads dohas into memory using MemStorage class
+- **Mood Mapping**: Each doha associates with 2-4 moods for better randomization
+- **No Database**: Simple JSON-like structure, perfect for static spiritual content
+
+### Special UX Features
+- **Vedic Aesthetics**: Sanskrit titles, lotus symbols, temple-inspired colors
+- **Smooth Animations**: 300-500ms easing transitions for mindful experience
+- **Floating Buttons**: Subtle animation on mood buttons for organic feel
+- **Typography**: Proper Hindi Devanagari fonts with beautiful English typography
+- **Responsive Design**: Mobile-friendly mood cloud and readable text on all devices
+- **Spiritual Colors**: Saffron, teal, maroon, indigo, rose-gold color palette
+- **Footer**: Beautiful Indic-inspired footer with Sanskrit quotes and symbols
+
+## 📁 **File/Folder Structure Overview**
+
+### Root Level
+```
+├── package.json              # Dependencies and scripts
+├── vite.config.ts            # Vite build configuration
+├── tailwind.config.ts        # TailwindCSS configuration
+├── tsconfig.json             # TypeScript configuration
+├── components.json           # shadcn/ui component configuration
+└── replit.md                 # Project documentation and preferences
+```
+
+### Client (Frontend)
+```
+client/
+├── index.html                # Entry HTML file
+├── src/
+│   ├── main.tsx             # React app entry point
+│   ├── App.tsx              # Main app component with routing
+│   ├── index.css            # Global styles and Vedic design system
+│   ├── components/
+│   │   ├── mood-cloud.tsx   # Interactive mood selection grid
+│   │   ├── doha-display.tsx # Doha presentation with typography
+│   │   ├── footer.tsx       # Spiritual footer with Sanskrit elements
+│   │   └── ui/              # shadcn/ui component library
+│   ├── pages/
+│   │   ├── home.tsx         # Homepage with mood cloud
+│   │   ├── doha.tsx         # Doha display page
+│   │   └── not-found.tsx    # 404 error page
+│   ├── data/
+│   │   └── dohas.ts         # All 75 dohas with mood associations
+│   ├── hooks/
+│   │   ├── use-mobile.tsx   # Mobile device detection
+│   │   └── use-toast.ts     # Toast notification system
+│   └── lib/
+│       ├── queryClient.ts   # TanStack Query configuration
+│       └── utils.ts         # Utility functions and CSS helpers
+```
+
+### Server (Backend)
+```
+server/
+├── index.ts                 # Express server entry point
+├── routes.ts                # API route handlers for dohas and moods
+├── storage.ts               # MemStorage class and IStorage interface
+└── vite.ts                  # Vite development server integration
+```
+
+### Shared
+```
+shared/
+└── schema.ts                # TypeScript types and Zod schemas for Doha/Mood
+```
+
+### Key Entry Points
+- **Frontend**: `client/src/main.tsx` → `App.tsx` → Routes to `pages/home.tsx` or `pages/doha.tsx`
+- **Backend**: `server/index.ts` → Express app with routes from `server/routes.ts`
+- **Data**: `client/src/data/dohas.ts` → Loaded by `server/storage.ts` → Served via API
+
+### Mood-to-Doha Matching Logic
+1. **Storage Layer**: `server/storage.ts` contains `getDohasByMood()` and `getRandomDohaByMood()`
+2. **Filtering**: Searches dohas array where `doha.moods` includes the requested mood
+3. **Randomization**: Uses Fisher-Yates shuffle algorithm for proper random selection
+4. **API**: `GET /api/dohas/:mood/random` endpoint serves one random matching doha
+
+## ⚙️ **Development Notes**
+
+### Configuration Setup
+- **TailwindCSS**: Custom spiritual color palette defined in `index.css` with Vedic-inspired variables
+- **Fonts**: Google Fonts imported for Noto Sans Devanagari (Hindi) and Playfair Display (English)
+- **Vite**: Configured with React plugin and path aliases (`@/` points to `client/src/`)
+- **TypeScript**: Strict mode enabled with ES2022 target for modern features
+
+### Spiritual Design System
+- **Colors**: Custom CSS variables for vedic-saffron, vedic-teal, vedic-maroon, etc.
+- **Typography**: Font classes like `font-noto-devanagari` and `font-playfair`
+- **Animations**: Framer Motion with 300-500ms durations for mindful transitions
+- **Components**: All UI components follow spiritual aesthetic with soft shadows and gradients
+
+### Development Tips
+- **Hot Reload**: Both frontend and backend support hot reloading via Vite and tsx
+- **API Testing**: Use `/api/moods` to see all available moods, then test specific mood endpoints
+- **Mood Addition**: Add new moods to existing dohas in `dohas.ts` - no backend changes needed
+- **Styling**: Use Tailwind utility classes, spiritual color variables, and existing component patterns
+- **Production**: Run `npm run build` to create production builds for both frontend and backend
+
+### Known Gotchas
+- **Font Loading**: Ensure Google Fonts load properly for Hindi Devanagari text
+- **Mood Case**: Backend converts mood parameters to lowercase for case-insensitive matching
+- **Route Params**: Wouter uses `/doha/:mood` pattern - mood must be URL-safe string
+- **Animation Performance**: Framer Motion animations may impact performance on low-end devices
+- **Mobile Touch**: Mood buttons are sized for touch interaction (minimum 44px touch targets)
+
+### Adding New Dohas
+1. Add doha object to `client/src/data/dohas.ts` with unique ID
+2. Include 2-4 relevant moods in the `moods` array
+3. Backend automatically picks up changes via in-memory storage refresh
+4. Test with `/api/dohas/{mood}/random` endpoint
+
+### Mood-Based Content Strategy
+- Each doha should relate to 2-4 emotional/spiritual states for variety
+- Moods like "peaceful", "seeking", "joyful" have multiple doha options
+- Fisher-Yates shuffle ensures users don't see the same doha repeatedly
+- Consider adding seasonal or contextual moods for future expansion
+
+---
+*This spiritual app combines ancient wisdom with modern web technology to create a mindful, contemplative user experience that honors the timeless teachings of Sant Kabir Das.*

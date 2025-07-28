@@ -106,6 +106,11 @@ export default function Footer() {
             <span>❋</span>
           </div>
 
+          {/* Built by Attribution */}
+          <div className="text-xs text-muted-text font-light">
+            Built by Ankit
+          </div>
+
           {/* Final Blessing */}
           <div className="text-xs text-muted-text font-light italic">
             ॐ शान्ति शान्ति शान्तिः

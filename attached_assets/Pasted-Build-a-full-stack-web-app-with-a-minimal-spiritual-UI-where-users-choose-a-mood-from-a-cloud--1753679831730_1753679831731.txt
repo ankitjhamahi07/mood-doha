@@ -1,0 +1,52 @@
+Build a full-stack web app with a **minimal, spiritual UI** where users choose a mood from a cloud, and receive a matching Kabir Doha. The app should feel calm, text-focused, and flow smoothly with subtle animations.
+
+---
+
+🎯 App Flow:
+
+1. Homepage shows a clean, centered **mood cloud** of 30–50 moods (e.g., calm, restless, joyful, curious).
+2. When the user clicks a mood:
+   - Use a smooth **fade/slide animation** to transition to the result screen.
+   - Display a **Kabir Doha**:
+     - In **Hindi (Devanagari)** — large, centered.
+     - With **transliteration** in Latin script below it.
+     - Followed by the **English translation**.
+3. Add a **“Next Doha”** button to get another one for the same mood.
+4. Optionally include a **“Back to moods”** button with a slide or fade effect.
+
+---
+
+🎨 UI / Design Instructions:
+
+- Use **TailwindCSS**.
+- Color palette: neutral base (`#fdfcf9`), dark text (`#1a1a1a`), one highlight color (sage, saffron, or sky).
+- **Typography**:
+  - Hindi: `Noto Sans Devanagari` or `Tiro Devanagari Hindi`
+  - English: `Noto Serif`, `Inter`, or `Playfair Display`
+- Mood cloud: center-aligned, floating **pill-shaped buttons**, hover + tap effect.
+- Layout: vertically and horizontally centered, full height, max-width centered container.
+
+---
+
+🎞️ Smooth Animation Instructions:
+
+- Use **Framer Motion** or **Tailwind + Headless UI transitions**.
+- Animate:
+  - Mood cloud → fade out and slide up on selection
+  - Doha view → fade in with slight delay
+  - "Next Doha" button → fade content out, load new Doha, fade in
+- Transitions should be **soft, slow (~300–500ms)**, easing = `ease-in-out`
+- No jarring or flashy effects — everything should feel like a mindful transition.
+
+---
+
+📁 Sample `dohe.json`:
+
+```json
+{
+  "id": "doha_12",
+  "text": "बुरा जो देखन मैं चला, बुरा न मिलिया कोय।",
+  "transliteration": "Bura jo dekhan main chala, bura na miliya koye.",
+  "translation": "When I set out to find bad in others, I found none.",
+  "moods": ["judgment", "self-reflection", "humility"]
+}

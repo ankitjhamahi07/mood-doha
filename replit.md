@@ -2,7 +2,19 @@
 
 ## Overview
 
-This is a full-stack web application that provides users with a calming, spiritual experience through Kabir's dohas (couplets). Users select their current mood from a cloud of mood options and receive a matching Kabir doha presented in Hindi (Devanagari), transliteration, and English translation. The app emphasizes mindful transitions and a minimal, text-focused design.
+This is a full-stack web application that provides users with a calming, spiritual experience through Kabir's dohas (couplets). Users select their current mood from a cloud of mood options and receive a matching Kabir doha presented in Hindi (Devanagari), transliteration, and English translation. The app emphasizes mindful transitions and a minimal, text-focused design with enhanced spiritual aesthetics including Tiro Devanagari Hindi font, Playfair Display for English, soft pastel mood buttons, and proper randomization.
+
+## Recent Changes
+
+**January 27, 2025:**
+- Expanded doha collection from 30 to 50 dohas with diverse moods
+- Implemented proper randomization using Fisher-Yates shuffle algorithm
+- Enhanced spiritual UI with Tiro Devanagari Hindi and Playfair Display fonts
+- Added soft background gradients and improved color palette
+- Implemented rotating pastel mood button styles (sage, saffron, sky blue)
+- Added "Kabir says..." subtitle for enhanced spiritual presentation
+- Improved animations with slower, more mindful transitions
+- Enhanced responsive design and breathing space around content
 
 ## User Preferences
 

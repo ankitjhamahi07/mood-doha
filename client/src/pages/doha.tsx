@@ -10,12 +10,12 @@ export default function DohaPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 bg-cream">
+    <div className="min-h-screen flex items-center justify-center p-6 bg-spiritual-cream">
       <motion.div
-        initial={{ opacity: 0, y: 30 }}
+        initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeInOut", delay: 0.1 }}
-        className="max-w-3xl mx-auto text-center space-y-12"
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+        className="max-w-4xl mx-auto text-center space-y-16"
       >
         <DohaDisplay mood={mood} />
       </motion.div>

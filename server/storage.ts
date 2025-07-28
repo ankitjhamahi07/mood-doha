@@ -31,7 +31,15 @@ export class MemStorage implements IStorage {
   async getRandomDohaByMood(mood: string): Promise<Doha | undefined> {
     const dohas = await this.getDohasByMood(mood);
     if (dohas.length === 0) return undefined;
-    return dohas[Math.floor(Math.random() * dohas.length)];
+    
+    // Fisher-Yates shuffle algorithm for better randomization
+    const shuffledDohas = [...dohas];
+    for (let i = shuffledDohas.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledDohas[i], shuffledDohas[j]] = [shuffledDohas[j], shuffledDohas[i]];
+    }
+    
+    return shuffledDohas[0];
   }
 }
 

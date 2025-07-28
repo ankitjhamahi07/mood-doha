@@ -210,5 +210,145 @@ export const dohasData: Doha[] = [
     transliteration: "Chalti chakki dekh kar, diya Kabeera roye.\nDo paatan ke beech mein, saabut bacha na koye.",
     translation: "Seeing the grinding mill turn, Kabir wept.\nBetween the two grinding stones, nothing remains whole.",
     moods: ["compassionate", "sorrowful", "philosophical", "empathetic"]
+  },
+  {
+    id: "doha_31",
+    hindi: "माया मरी न मन मरा, मर मर गए शरीर।\nआशा तृष्णा न मरी, कह गए दास कबीर॥",
+    transliteration: "Maya mari na man mara, mar mar gaye shareer.\nAasha trishna na mari, kah gaye daas Kabir.",
+    translation: "Neither illusion died nor the mind died, only the body perished again and again.\nDesire and thirst never died, says the servant Kabir.",
+    moods: ["frustrated", "philosophical", "awakening", "seeking"]
+  },
+  {
+    id: "doha_32",
+    hindi: "बोली एक अनमोल है, जो कोई बोलै जानि।\nहिये तराजू तौलि के, तब मुख बाहर आनि॥",
+    transliteration: "Boli ek anmol hai, jo koi bolai jaani.\nHiye taraaju tauli ke, tab mukh baahar aani.",
+    translation: "Speech is priceless, if one knows how to speak.\nWeigh it on the scale of the heart, then let it come out of the mouth.",
+    moods: ["wise", "thoughtful", "careful", "contemplative"]
+  },
+  {
+    id: "doha_33",
+    hindi: "कबीरा गर्व न कीजिये, ऊंचा देखि अवास।\nकाल परै भुइं लेटना, ऊपरि जमसी घास॥",
+    transliteration: "Kabeera garva na keejiye, ooncha dekhi avaasa.\nKaal parai bhuin letna, oopari jamsi ghaasa.",
+    translation: "Kabir, don't be proud seeing your high dwelling.\nTomorrow you'll lie on the ground, and grass will grow above.",
+    moods: ["humble", "mortal", "realistic", "contemplative"]
+  },
+  {
+    id: "doha_34",
+    hindi: "जहाँ दया तहाँ धर्म है, जहाँ लोभ तहाँ पाप।\nजहाँ क्रोध तहाँ काल है, जहाँ क्षमा तहाँ आप॥",
+    transliteration: "Jahan daya tahan dharma hai, jahan lobha tahan paapa.\nJahan krodha tahan kaala hai, jahan kshama tahan aapa.",
+    translation: "Where there is compassion, there is righteousness; where greed, there is sin.\nWhere there is anger, there is death; where forgiveness, there is the divine self.",
+    moods: ["wise", "compassionate", "forgiving", "enlightened"]
+  },
+  {
+    id: "doha_35",
+    hindi: "अंधा हुआ सो अंध है, ऐसा तो सभ कोय।\nकहै कबीर आंख वाले, ये भी अंधे होय॥",
+    transliteration: "Andha hua so andha hai, aisa to sabh koye.\nKahai Kabir aankh waale, ye bhi andhe hoye.",
+    translation: "A blind person is blind, that everyone knows.\nSays Kabir, even those with eyes are blind too.",
+    moods: ["wise", "critical", "awakening", "questioning"]
+  },
+  {
+    id: "doha_36",
+    hindi: "कबीर सोई पीर है, जो जाने पर पीर।\nजो पर पीर न जानही, सो काफिर बेपीर॥",
+    transliteration: "Kabir soi peer hai, jo jaane par peer.\nJo par peer na jaanhi, so kaafir bepeer.",
+    translation: "Kabir says, only that person is a saint who understands others' pain.\nOne who doesn't understand others' pain is heartless and faithless.",
+    moods: ["compassionate", "empathetic", "wise", "caring"]
+  },
+  {
+    id: "doha_37",
+    hindi: "जग में बैरी कोई नहीं, जो मन शीतल होय।\nया आपा को डारि दे, दया करै सब कोय॥",
+    transliteration: "Jaga mein bairi koi nahin, jo man sheetal hoye.\nYa aapa ko daari de, daya karai sab koye.",
+    translation: "There is no enemy in the world, if the mind becomes cool.\nAbandon this ego, and everyone will show compassion.",
+    moods: ["peaceful", "forgiving", "humble", "loving"]
+  },
+  {
+    id: "doha_38",
+    hindi: "सुख दुःख दोनों एक सम, जाने ज्ञानी होय।\nतिनको निकट न जाइये, जो कहते कुछ और॥",
+    transliteration: "Sukh dukh dono ek sama, jaane gyaani hoye.\nTinko nikat na jaaiye, jo kahte kuchh aura.",
+    translation: "One who sees joy and sorrow as equal becomes wise.\nDon't go near those who say one thing but mean another.",
+    moods: ["wise", "balanced", "enlightened", "cautious"]
+  },
+  {
+    id: "doha_39",
+    hindi: "कबीरा ते नर अंध हैं, गुरु को कहते और।\nहरि रूठे गुरु ठौर है, गुरु रूठे नहीं ठौर॥",
+    transliteration: "Kabeera te nara andha hain, guru ko kahte aura.\nHari ruthe guru thaura hai, guru ruthe nahin thaura.",
+    translation: "Kabir says, those people are blind who consider the guru as ordinary.\nIf God is angry, the guru is the refuge; if guru is angry, there is no refuge.",
+    moods: ["devoted", "grateful", "wise", "humble"]
+  },
+  {
+    id: "doha_40",
+    hindi: "पहले शब्द बिचारि के, पीछे करनी करि।\nये कहैं सन्त कबीर जी, सबसे मिलियो घरि॥",
+    transliteration: "Pahle shabda bichaari ke, peeche karni kari.\nYe kahain sant Kabir ji, sabse miliyo ghari.",
+    translation: "First consider your words carefully, then act accordingly.\nSaint Kabir says, meet everyone with love in your heart.",
+    moods: ["wise", "thoughtful", "loving", "careful"]
+  },
+  {
+    id: "doha_41",
+    hindi: "आया था किस काम को, तू भूल गया भाई।\nसोना चांदी माया में, अपना आप गंवाई॥",
+    transliteration: "Aaya tha kis kaam ko, tu bhool gaya bhaai.\nSona chaandi maya mein, apna aapa ganvaai.",
+    translation: "What purpose did you come for, brother, you have forgotten.\nIn gold, silver and illusion, you have lost your true self.",
+    moods: ["awakening", "lost", "forgetful", "seeking"]
+  },
+  {
+    id: "doha_42",
+    hindi: "राम गये, रावण गये, गये जो कौरव पांडव।\nकोई यहाँ टिका नहीं, सब गये गड़गड़ाव॥",
+    transliteration: "Raam gaye, Raavan gaye, gaye jo Kaurava Paandava.\nKoi yahaan tika nahin, sab gaye gadgadaava.",
+    translation: "Rama went, Ravana went, the Kauravas and Pandavas went.\nNo one stayed here, all departed with great noise.",
+    moods: ["mortal", "philosophical", "contemplative", "realistic"]
+  },
+  {
+    id: "doha_43",
+    hindi: "मन मैला तन ऊजरा, बगुला कपटी अंग।\nतासों तो कौआ भला, तन मन एकही रंग॥",
+    transliteration: "Man maila tana oojara, bagula kapati anga.\nTaason to kauaa bhala, tana mana ekahi ranga.",
+    translation: "Mind dirty but body white, like a deceitful heron.\nBetter than that is a crow, whose body and mind are the same color.",
+    moods: ["honest", "authentic", "critical", "wise"]
+  },
+  {
+    id: "doha_44",
+    hindi: "कबीर कूता राम का, मुतिया मेरा नाउं।\nगले राम की जेवड़ी, जित खैंचे तित जाउं॥",
+    transliteration: "Kabir koota Raama ka, mutiya mera naaun.\nGale Raama ki jevadi, jita khaiche tita jaaun.",
+    translation: "Kabir is God's dog, my name is 'Pearl'.\nAround my neck is God's chain, wherever He pulls, there I go.",
+    moods: ["devoted", "surrendered", "humble", "faithful"]
+  },
+  {
+    id: "doha_45",
+    hindi: "ऐसी वाणी बोलिए, मन का आप खोये।\nअपना तन शीतल करै, औरन को सुख होये॥",
+    transliteration: "Aisi vaani boliye, mana ka aapa khoye.\nApna tana sheetal karai, aurana ko sukha hoye.",
+    translation: "Speak such words that dissolve the ego of the mind.\nIt should cool your own body and bring joy to others.",
+    moods: ["peaceful", "kind", "wise", "loving"]
+  },
+  {
+    id: "doha_46",
+    hindi: "कबीरा धीरज के धरै, हाथी मन भर खाय।\nटूट मूठी देक्खि करि, कुत्ता भूंकण जाय॥",
+    transliteration: "Kabeera dheeraja ke dharai, haathi mana bhara khaaye.\nToota moothi dekhi kari, kutta bhoonkana jaaye.",
+    translation: "Kabir says, with patience, an elephant eats to its heart's content.\nSeeing a broken fist, even a dog stops barking.",
+    moods: ["patient", "wise", "strategic", "calm"]
+  },
+  {
+    id: "doha_47",
+    hindi: "बिना तेल बिना बाती, बिना आग बिना धुआ।\nकहै कबीर सुनो भाई, सहज जोत जगमगाई॥",
+    transliteration: "Bina tela bina baati, bina aaga bina dhuaa.\nKahai Kabir suno bhaai, sahaja jota jagmagaai.",
+    translation: "Without oil, without wick, without fire, without smoke.\nSays Kabir, listen brother, the natural light is shining bright.",
+    moods: ["enlightened", "mystical", "peaceful", "awakened"]
+  },
+  {
+    id: "doha_48",
+    hindi: "गाड़ा माटी ने सब को, चालक को ना चेत।\nआज कहीं कल यहीं है, कहै कबीर सुमेत॥",
+    transliteration: "Gaada maati ne saba ko, chaalaka ko naa cheta.\nAaja kaheen kala yaheen hai, kahai Kabir sumeta.",
+    translation: "Earth has buried everyone, but the driver doesn't understand.\nToday somewhere, tomorrow right here, says Kabir, remember this.",
+    moods: ["mortal", "awakening", "contemplative", "urgent"]
+  },
+  {
+    id: "doha_49",
+    hindi: "कबीरा गुरु की भक्ति कर, तज विषय रस चौज।\nबाहर ढूंढे जो मिले, भीतर का है कौज॥",
+    transliteration: "Kabeera guru ki bhakti kara, taja vishaya rasa chauja.\nBaahara dhooandhe jo mile, bheetara ka hai kauja.",
+    translation: "Kabir, worship the guru and abandon sensual pleasures.\nWhat you seek outside, the treasure is within.",
+    moods: ["seeking", "devoted", "wise", "inner-focused"]
+  },
+  {
+    id: "doha_50",
+    hindi: "जीवत कोय समझावै, कोऊ न समझाय मुए।\nकह कबीर ऐसी लिखी, लिख पढ़ि अलष हुए॥",
+    transliteration: "Jeevata koye samajhaavai, kooo na samajhaaye mue.\nKaha Kabir aisi likhi, likha padhi alasha hue.",
+    translation: "Someone may understand while alive, but none can be taught when dead.\nSays Kabir, such is the script written, writing and reading, we become lazy.",
+    moods: ["wise", "urgent", "realistic", "awakening"]
   }
 ];
